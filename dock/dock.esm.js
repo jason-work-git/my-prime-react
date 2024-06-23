@@ -1,10 +1,10 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useMountEffect } from 'primereact/hooks';
-import { Ripple } from 'primereact/ripple';
-import { classNames, UniqueComponentId, ObjectUtils, DomHandler, IconUtils } from 'primereact/utils';
+import { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useMountEffect } from 'ytg-reusable-components/hooks';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { classNames, UniqueComponentId, ObjectUtils, DomHandler, IconUtils } from 'ytg-reusable-components/utils';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

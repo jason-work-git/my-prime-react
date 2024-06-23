@@ -1,13 +1,13 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { PrimeReactContext, ariaLabel } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useMatchMedia, useEventListener, useResizeListener, useMountEffect, useUpdateEffect } from 'primereact/hooks';
-import { AngleDownIcon } from 'primereact/icons/angledown';
-import { AngleRightIcon } from 'primereact/icons/angleright';
-import { BarsIcon } from 'primereact/icons/bars';
-import { Ripple } from 'primereact/ripple';
-import { classNames, DomHandler, UniqueComponentId, ZIndexUtils, ObjectUtils, IconUtils } from 'primereact/utils';
+import PrimeReact, { PrimeReactContext, ariaLabel } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useMatchMedia, useEventListener, useResizeListener, useMountEffect, useUpdateEffect } from 'ytg-reusable-components/hooks';
+import { AngleDownIcon } from 'ytg-reusable-components/icons/angledown';
+import { AngleRightIcon } from 'ytg-reusable-components/icons/angleright';
+import { BarsIcon } from 'ytg-reusable-components/icons/bars';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { classNames, DomHandler, UniqueComponentId, ZIndexUtils, ObjectUtils, IconUtils } from 'ytg-reusable-components/utils';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

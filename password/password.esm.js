@@ -1,16 +1,16 @@
 'use client';
 import * as React from 'react';
 import React__default, { useRef, useContext } from 'react';
-import PrimeReact, { PrimeReactContext, localeOption, ariaLabel } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { CSSTransition } from 'primereact/csstransition';
-import { useMergeProps, useDisplayOrder, useGlobalOnEscapeKey, ESC_KEY_HANDLING_PRIORITIES, useOverlayListener, useUpdateEffect, useMountEffect, useUnmountEffect } from 'primereact/hooks';
-import { classNames, ObjectUtils, DomHandler, ZIndexUtils, IconUtils } from 'primereact/utils';
-import { EyeIcon } from 'primereact/icons/eye';
-import { EyeSlashIcon } from 'primereact/icons/eyeslash';
-import { InputText } from 'primereact/inputtext';
-import { OverlayService } from 'primereact/overlayservice';
-import { Portal } from 'primereact/portal';
+import PrimeReact, { PrimeReactContext, localeOption, ariaLabel } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { CSSTransition } from 'ytg-reusable-components/csstransition';
+import { useMergeProps, useDisplayOrder, useGlobalOnEscapeKey, ESC_KEY_HANDLING_PRIORITIES, useOverlayListener, useUpdateEffect, useMountEffect, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { classNames, ObjectUtils, DomHandler, ZIndexUtils, IconUtils } from 'ytg-reusable-components/utils';
+import { EyeIcon } from 'ytg-reusable-components/icons/eye';
+import { EyeSlashIcon } from 'ytg-reusable-components/icons/eyeslash';
+import { InputText } from 'ytg-reusable-components/inputtext';
+import { OverlayService } from 'ytg-reusable-components/overlayservice';
+import { Portal } from 'ytg-reusable-components/portal';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

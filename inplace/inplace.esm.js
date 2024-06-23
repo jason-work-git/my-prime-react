@@ -1,11 +1,11 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext, localeOption } from 'primereact/api';
-import { Button } from 'primereact/button';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useUpdateEffect } from 'primereact/hooks';
-import { TimesIcon } from 'primereact/icons/times';
-import { classNames, ObjectUtils, IconUtils } from 'primereact/utils';
+import { PrimeReactContext, localeOption } from 'ytg-reusable-components/api';
+import { Button } from 'ytg-reusable-components/button';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useUpdateEffect } from 'ytg-reusable-components/hooks';
+import { TimesIcon } from 'ytg-reusable-components/icons/times';
+import { classNames, ObjectUtils, IconUtils } from 'ytg-reusable-components/utils';
 
 function _arrayWithHoles(arr) {
   if (Array.isArray(arr)) return arr;

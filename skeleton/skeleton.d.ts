@@ -99,7 +99,7 @@ export interface SkeletonProps extends Omit<React.DetailedHTMLProps<React.HTMLAt
  *
  * [Live Demo](https://www.primereact.org/skeleton/)
  * --- ---
- * ![PrimeReact](https://primefaces.org/cdn/primereact/images/logo-100.png)
+ * ![PrimeReact](https://primefaces.org/cdn/ytg-reusable-components/images/logo-100.png)
  *
  * @group Component
  */

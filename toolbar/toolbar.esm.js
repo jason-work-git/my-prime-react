@@ -1,9 +1,9 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps } from 'primereact/hooks';
-import { ObjectUtils, classNames } from 'primereact/utils';
+import { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps } from 'ytg-reusable-components/hooks';
+import { ObjectUtils, classNames } from 'ytg-reusable-components/utils';
 
 var ToolbarBase = ComponentBase.extend({
   defaultProps: {

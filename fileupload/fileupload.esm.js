@@ -1,16 +1,16 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext, localeOption } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps } from 'primereact/hooks';
-import { classNames, ObjectUtils, IconUtils, DomHandler } from 'primereact/utils';
-import { Button } from 'primereact/button';
-import { PlusIcon } from 'primereact/icons/plus';
-import { TimesIcon } from 'primereact/icons/times';
-import { UploadIcon } from 'primereact/icons/upload';
-import { Messages } from 'primereact/messages';
-import { ProgressBar } from 'primereact/progressbar';
-import { Ripple } from 'primereact/ripple';
+import { PrimeReactContext, localeOption } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps } from 'ytg-reusable-components/hooks';
+import { classNames, ObjectUtils, IconUtils, DomHandler } from 'ytg-reusable-components/utils';
+import { Button } from 'ytg-reusable-components/button';
+import { PlusIcon } from 'ytg-reusable-components/icons/plus';
+import { TimesIcon } from 'ytg-reusable-components/icons/times';
+import { UploadIcon } from 'ytg-reusable-components/icons/upload';
+import { Messages } from 'ytg-reusable-components/messages';
+import { ProgressBar } from 'ytg-reusable-components/progressbar';
+import { Ripple } from 'ytg-reusable-components/ripple';
 
 function _typeof(o) {
   "@babel/helpers - typeof";

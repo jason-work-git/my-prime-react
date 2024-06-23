@@ -1,14 +1,14 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useMountEffect, useUpdateEffect } from 'primereact/hooks';
-import { AngleDownIcon } from 'primereact/icons/angledown';
-import { AngleUpIcon } from 'primereact/icons/angleup';
-import { InputText } from 'primereact/inputtext';
-import { Ripple } from 'primereact/ripple';
-import { Tooltip } from 'primereact/tooltip';
-import { classNames, DomHandler, ObjectUtils, IconUtils } from 'primereact/utils';
+import PrimeReact, { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useMountEffect, useUpdateEffect } from 'ytg-reusable-components/hooks';
+import { AngleDownIcon } from 'ytg-reusable-components/icons/angledown';
+import { AngleUpIcon } from 'ytg-reusable-components/icons/angleup';
+import { InputText } from 'ytg-reusable-components/inputtext';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { Tooltip } from 'ytg-reusable-components/tooltip';
+import { classNames, DomHandler, ObjectUtils, IconUtils } from 'ytg-reusable-components/utils';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

@@ -1,13 +1,13 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps } from 'primereact/hooks';
-import { CheckIcon } from 'primereact/icons/check';
-import { ExclamationTriangleIcon } from 'primereact/icons/exclamationtriangle';
-import { InfoCircleIcon } from 'primereact/icons/infocircle';
-import { TimesCircleIcon } from 'primereact/icons/timescircle';
-import { classNames, ObjectUtils, IconUtils } from 'primereact/utils';
+import { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps } from 'ytg-reusable-components/hooks';
+import { CheckIcon } from 'ytg-reusable-components/icons/check';
+import { ExclamationTriangleIcon } from 'ytg-reusable-components/icons/exclamationtriangle';
+import { InfoCircleIcon } from 'ytg-reusable-components/icons/infocircle';
+import { TimesCircleIcon } from 'ytg-reusable-components/icons/timescircle';
+import { classNames, ObjectUtils, IconUtils } from 'ytg-reusable-components/utils';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

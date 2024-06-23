@@ -1,7 +1,7 @@
 'use client';
-import PrimeReact from 'primereact/api';
-import { useStyle, useMountEffect, useUpdateEffect, useUnmountEffect } from 'primereact/hooks';
-import { ObjectUtils, mergeProps, classNames } from 'primereact/utils';
+import PrimeReact from 'ytg-reusable-components/api';
+import { useStyle, useMountEffect, useUpdateEffect, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { ObjectUtils, mergeProps, classNames } from 'ytg-reusable-components/utils';
 
 function _arrayLikeToArray(arr, len) {
   if (len == null || len > arr.length) len = arr.length;

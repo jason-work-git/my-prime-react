@@ -1,9 +1,9 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext, localeOption } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useMountEffect, useUpdateEffect, useUnmountEffect } from 'primereact/hooks';
-import { classNames, ObjectUtils } from 'primereact/utils';
+import { PrimeReactContext, localeOption } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useMountEffect, useUpdateEffect, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { classNames, ObjectUtils } from 'ytg-reusable-components/utils';
 
 function _arrayLikeToArray(arr, len) {
   if (len == null || len > arr.length) len = arr.length;

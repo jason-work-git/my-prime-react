@@ -1,14 +1,14 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { PrimeReactContext, localeOption } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { CSSTransition } from 'primereact/csstransition';
-import { useMergeProps, useOverlayListener, useDisplayOrder, useGlobalOnEscapeKey, ESC_KEY_HANDLING_PRIORITIES, useMountEffect, useUnmountEffect } from 'primereact/hooks';
-import { TimesIcon } from 'primereact/icons/times';
-import { OverlayService } from 'primereact/overlayservice';
-import { Portal } from 'primereact/portal';
-import { Ripple } from 'primereact/ripple';
-import { classNames, DomHandler, UniqueComponentId, ZIndexUtils, IconUtils } from 'primereact/utils';
+import PrimeReact, { PrimeReactContext, localeOption } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { CSSTransition } from 'ytg-reusable-components/csstransition';
+import { useMergeProps, useOverlayListener, useDisplayOrder, useGlobalOnEscapeKey, ESC_KEY_HANDLING_PRIORITIES, useMountEffect, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { TimesIcon } from 'ytg-reusable-components/icons/times';
+import { OverlayService } from 'ytg-reusable-components/overlayservice';
+import { Portal } from 'ytg-reusable-components/portal';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { classNames, DomHandler, UniqueComponentId, ZIndexUtils, IconUtils } from 'ytg-reusable-components/utils';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

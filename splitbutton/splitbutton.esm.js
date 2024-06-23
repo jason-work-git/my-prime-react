@@ -1,17 +1,17 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { PrimeReactContext } from 'primereact/api';
-import { Button } from 'primereact/button';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useUpdateEffect, useMatchMedia, useEventListener, useResizeListener, useMountEffect, useUnmountEffect, useDisplayOrder, useGlobalOnEscapeKey, ESC_KEY_HANDLING_PRIORITIES } from 'primereact/hooks';
-import { ChevronDownIcon } from 'primereact/icons/chevrondown';
-import { OverlayService } from 'primereact/overlayservice';
-import { CSSTransition } from 'primereact/csstransition';
-import { Portal } from 'primereact/portal';
-import { classNames, DomHandler, ObjectUtils, IconUtils, UniqueComponentId, ZIndexUtils } from 'primereact/utils';
-import { AngleRightIcon } from 'primereact/icons/angleright';
-import { Ripple } from 'primereact/ripple';
-import { Tooltip } from 'primereact/tooltip';
+import PrimeReact, { PrimeReactContext } from 'ytg-reusable-components/api';
+import { Button } from 'ytg-reusable-components/button';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useUpdateEffect, useMatchMedia, useEventListener, useResizeListener, useMountEffect, useUnmountEffect, useDisplayOrder, useGlobalOnEscapeKey, ESC_KEY_HANDLING_PRIORITIES } from 'ytg-reusable-components/hooks';
+import { ChevronDownIcon } from 'ytg-reusable-components/icons/chevrondown';
+import { OverlayService } from 'ytg-reusable-components/overlayservice';
+import { CSSTransition } from 'ytg-reusable-components/csstransition';
+import { Portal } from 'ytg-reusable-components/portal';
+import { classNames, DomHandler, ObjectUtils, IconUtils, UniqueComponentId, ZIndexUtils } from 'ytg-reusable-components/utils';
+import { AngleRightIcon } from 'ytg-reusable-components/icons/angleright';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { Tooltip } from 'ytg-reusable-components/tooltip';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

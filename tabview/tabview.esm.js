@@ -1,13 +1,13 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext, ariaLabel } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useMountEffect, useUpdateEffect } from 'primereact/hooks';
-import { ChevronLeftIcon } from 'primereact/icons/chevronleft';
-import { ChevronRightIcon } from 'primereact/icons/chevronright';
-import { TimesIcon } from 'primereact/icons/times';
-import { Ripple } from 'primereact/ripple';
-import { ObjectUtils, classNames, UniqueComponentId, DomHandler, IconUtils } from 'primereact/utils';
+import { PrimeReactContext, ariaLabel } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useMountEffect, useUpdateEffect } from 'ytg-reusable-components/hooks';
+import { ChevronLeftIcon } from 'ytg-reusable-components/icons/chevronleft';
+import { ChevronRightIcon } from 'ytg-reusable-components/icons/chevronright';
+import { TimesIcon } from 'ytg-reusable-components/icons/times';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { ObjectUtils, classNames, UniqueComponentId, DomHandler, IconUtils } from 'ytg-reusable-components/utils';
 
 function _arrayLikeToArray(arr, len) {
   if (len == null || len > arr.length) len = arr.length;

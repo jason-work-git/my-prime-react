@@ -1,5 +1,5 @@
 'use client';
-import { ObjectUtils } from 'primereact/utils';
+import { ObjectUtils } from 'ytg-reusable-components/utils';
 import React, { useState } from 'react';
 
 var FilterMatchMode = Object.freeze({

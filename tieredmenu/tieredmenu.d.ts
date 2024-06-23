@@ -201,7 +201,7 @@ export interface TieredMenuProps extends Omit<React.DetailedHTMLProps<React.HTML
  *
  * [Live Demo](https://www.primereact.org/tieredmenu/)
  * --- ---
- * ![PrimeReact](https://primefaces.org/cdn/primereact/images/logo-100.png)
+ * ![PrimeReact](https://primefaces.org/cdn/ytg-reusable-components/images/logo-100.png)
  *
  * @group Component
  */

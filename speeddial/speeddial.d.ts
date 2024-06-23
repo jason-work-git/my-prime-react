@@ -235,7 +235,7 @@ export interface SpeedDialProps extends Omit<React.DetailedHTMLProps<React.HTMLA
  *
  * [Live Demo](https://www.primereact.org/speeddial/)
  * --- ---
- * ![PrimeReact](https://primefaces.org/cdn/primereact/images/logo-100.png)
+ * ![PrimeReact](https://primefaces.org/cdn/ytg-reusable-components/images/logo-100.png)
  *
  * @group Component
  */

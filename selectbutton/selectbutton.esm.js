@@ -1,11 +1,11 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps } from 'primereact/hooks';
-import { Tooltip } from 'primereact/tooltip';
-import { classNames, ObjectUtils, DomHandler } from 'primereact/utils';
-import { Ripple } from 'primereact/ripple';
+import { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps } from 'ytg-reusable-components/hooks';
+import { Tooltip } from 'ytg-reusable-components/tooltip';
+import { classNames, ObjectUtils, DomHandler } from 'ytg-reusable-components/utils';
+import { Ripple } from 'ytg-reusable-components/ripple';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

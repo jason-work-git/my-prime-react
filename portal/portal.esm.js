@@ -1,9 +1,9 @@
 'use client';
 import * as React from 'react';
 import ReactDOM from 'react-dom';
-import PrimeReact, { PrimeReactContext } from 'primereact/api';
-import { useMountEffect, useUpdateEffect, useUnmountEffect } from 'primereact/hooks';
-import { ObjectUtils, DomHandler } from 'primereact/utils';
+import PrimeReact, { PrimeReactContext } from 'ytg-reusable-components/api';
+import { useMountEffect, useUpdateEffect, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { ObjectUtils, DomHandler } from 'ytg-reusable-components/utils';
 
 function _arrayWithHoles(arr) {
   if (Array.isArray(arr)) return arr;

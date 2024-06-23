@@ -1,24 +1,24 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { FilterMatchMode, PrimeReactContext, ariaLabel, localeOption, FilterService } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { ObjectUtils, classNames, DomHandler, IconUtils } from 'primereact/utils';
-import { useMergeProps, useEventListener, useUnmountEffect, useUpdateEffect, useMountEffect } from 'primereact/hooks';
-import { ArrowDownIcon } from 'primereact/icons/arrowdown';
-import { ArrowUpIcon } from 'primereact/icons/arrowup';
-import { SpinnerIcon } from 'primereact/icons/spinner';
-import { Paginator } from 'primereact/paginator';
-import { CheckIcon } from 'primereact/icons/check';
-import { ChevronDownIcon } from 'primereact/icons/chevrondown';
-import { ChevronRightIcon } from 'primereact/icons/chevronright';
-import { MinusIcon } from 'primereact/icons/minus';
-import { Ripple } from 'primereact/ripple';
-import { OverlayService } from 'primereact/overlayservice';
-import { Tooltip } from 'primereact/tooltip';
-import { SortAltIcon } from 'primereact/icons/sortalt';
-import { SortAmountDownIcon } from 'primereact/icons/sortamountdown';
-import { SortAmountUpAltIcon } from 'primereact/icons/sortamountupalt';
-import { InputText } from 'primereact/inputtext';
+import PrimeReact, { FilterMatchMode, PrimeReactContext, ariaLabel, localeOption, FilterService } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { ObjectUtils, classNames, DomHandler, IconUtils } from 'ytg-reusable-components/utils';
+import { useMergeProps, useEventListener, useUnmountEffect, useUpdateEffect, useMountEffect } from 'ytg-reusable-components/hooks';
+import { ArrowDownIcon } from 'ytg-reusable-components/icons/arrowdown';
+import { ArrowUpIcon } from 'ytg-reusable-components/icons/arrowup';
+import { SpinnerIcon } from 'ytg-reusable-components/icons/spinner';
+import { Paginator } from 'ytg-reusable-components/paginator';
+import { CheckIcon } from 'ytg-reusable-components/icons/check';
+import { ChevronDownIcon } from 'ytg-reusable-components/icons/chevrondown';
+import { ChevronRightIcon } from 'ytg-reusable-components/icons/chevronright';
+import { MinusIcon } from 'ytg-reusable-components/icons/minus';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { OverlayService } from 'ytg-reusable-components/overlayservice';
+import { Tooltip } from 'ytg-reusable-components/tooltip';
+import { SortAltIcon } from 'ytg-reusable-components/icons/sortalt';
+import { SortAmountDownIcon } from 'ytg-reusable-components/icons/sortamountdown';
+import { SortAmountUpAltIcon } from 'ytg-reusable-components/icons/sortamountupalt';
+import { InputText } from 'ytg-reusable-components/inputtext';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

@@ -1,10 +1,10 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps } from 'primereact/hooks';
-import { TerminalService } from 'primereact/terminalservice';
-import { DomHandler, classNames } from 'primereact/utils';
+import { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps } from 'ytg-reusable-components/hooks';
+import { TerminalService } from 'ytg-reusable-components/terminalservice';
+import { DomHandler, classNames } from 'ytg-reusable-components/utils';
 
 function _arrayLikeToArray(arr, len) {
   if (len == null || len > arr.length) len = arr.length;

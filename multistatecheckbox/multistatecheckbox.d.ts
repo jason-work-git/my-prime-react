@@ -252,7 +252,7 @@ export interface MultiStateCheckboxProps extends Omit<React.DetailedHTMLProps<Re
  *
  * [Live Demo](https://www.primereact.org/multistatecheckbox/)
  * --- ---
- * ![PrimeReact](https://primefaces.org/cdn/primereact/images/logo-100.png)
+ * ![PrimeReact](https://primefaces.org/cdn/ytg-reusable-components/images/logo-100.png)
  *
  * @group Component
  */

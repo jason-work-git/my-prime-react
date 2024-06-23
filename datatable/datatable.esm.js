@@ -1,36 +1,36 @@
 'use client';
 import * as React from 'react';
 import React__default from 'react';
-import PrimeReact$1, { FilterMatchMode as FilterMatchMode$1, PrimeReactContext, ariaLabel as ariaLabel$1, localeOption, FilterOperator, FilterService } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { ObjectUtils, classNames, DomHandler, IconUtils, UniqueComponentId, ZIndexUtils } from 'primereact/utils';
-import { useMergeProps, useUpdateEffect, useMountEffect, useEventListener, useUnmountEffect, useStyle, useOverlayListener, usePrevious } from 'primereact/hooks';
-import { ArrowDownIcon } from 'primereact/icons/arrowdown';
-import { ArrowUpIcon } from 'primereact/icons/arrowup';
-import { SpinnerIcon } from 'primereact/icons/spinner';
-import { Paginator } from 'primereact/paginator';
-import { VirtualScroller } from 'primereact/virtualscroller';
-import { BarsIcon } from 'primereact/icons/bars';
-import { CheckIcon } from 'primereact/icons/check';
-import { ChevronDownIcon } from 'primereact/icons/chevrondown';
-import { ChevronRightIcon } from 'primereact/icons/chevronright';
-import { PencilIcon } from 'primereact/icons/pencil';
-import { TimesIcon } from 'primereact/icons/times';
-import { OverlayService } from 'primereact/overlayservice';
-import { Ripple } from 'primereact/ripple';
-import { Tooltip } from 'primereact/tooltip';
-import { Button } from 'primereact/button';
-import { CSSTransition } from 'primereact/csstransition';
-import { Dropdown } from 'primereact/dropdown';
-import { FilterIcon } from 'primereact/icons/filter';
-import { FilterSlashIcon } from 'primereact/icons/filterslash';
-import { PlusIcon } from 'primereact/icons/plus';
-import { TrashIcon } from 'primereact/icons/trash';
-import { InputText } from 'primereact/inputtext';
-import { Portal } from 'primereact/portal';
-import { SortAltIcon } from 'primereact/icons/sortalt';
-import { SortAmountDownIcon } from 'primereact/icons/sortamountdown';
-import { SortAmountUpAltIcon } from 'primereact/icons/sortamountupalt';
+import PrimeReact$1, { FilterMatchMode as FilterMatchMode$1, PrimeReactContext, ariaLabel as ariaLabel$1, localeOption, FilterOperator, FilterService } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { ObjectUtils, classNames, DomHandler, IconUtils, UniqueComponentId, ZIndexUtils } from 'ytg-reusable-components/utils';
+import { useMergeProps, useUpdateEffect, useMountEffect, useEventListener, useUnmountEffect, useStyle, useOverlayListener, usePrevious } from 'ytg-reusable-components/hooks';
+import { ArrowDownIcon } from 'ytg-reusable-components/icons/arrowdown';
+import { ArrowUpIcon } from 'ytg-reusable-components/icons/arrowup';
+import { SpinnerIcon } from 'ytg-reusable-components/icons/spinner';
+import { Paginator } from 'ytg-reusable-components/paginator';
+import { VirtualScroller } from 'ytg-reusable-components/virtualscroller';
+import { BarsIcon } from 'ytg-reusable-components/icons/bars';
+import { CheckIcon } from 'ytg-reusable-components/icons/check';
+import { ChevronDownIcon } from 'ytg-reusable-components/icons/chevrondown';
+import { ChevronRightIcon } from 'ytg-reusable-components/icons/chevronright';
+import { PencilIcon } from 'ytg-reusable-components/icons/pencil';
+import { TimesIcon } from 'ytg-reusable-components/icons/times';
+import { OverlayService } from 'ytg-reusable-components/overlayservice';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { Tooltip } from 'ytg-reusable-components/tooltip';
+import { Button } from 'ytg-reusable-components/button';
+import { CSSTransition } from 'ytg-reusable-components/csstransition';
+import { Dropdown } from 'ytg-reusable-components/dropdown';
+import { FilterIcon } from 'ytg-reusable-components/icons/filter';
+import { FilterSlashIcon } from 'ytg-reusable-components/icons/filterslash';
+import { PlusIcon } from 'ytg-reusable-components/icons/plus';
+import { TrashIcon } from 'ytg-reusable-components/icons/trash';
+import { InputText } from 'ytg-reusable-components/inputtext';
+import { Portal } from 'ytg-reusable-components/portal';
+import { SortAltIcon } from 'ytg-reusable-components/icons/sortalt';
+import { SortAmountDownIcon } from 'ytg-reusable-components/icons/sortamountdown';
+import { SortAmountUpAltIcon } from 'ytg-reusable-components/icons/sortamountupalt';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {
@@ -6134,7 +6134,7 @@ var DataTable = /*#__PURE__*/React.forwardRef(function (inProps, ref) {
           !!el && (el.style.width = el.style.minWidth = tableWidth);
         };
 
-        // https://github.com/primefaces/primereact/issues/3970 Reasoning: resize table cells before updating the table width so that it can use existing computed cell widths and adjust only the one column.
+        // https://github.com/primefaces/ytg-reusable-components/issues/3970 Reasoning: resize table cells before updating the table width so that it can use existing computed cell widths and adjust only the one column.
         resizeTableCells(newColumnWidth);
         updateTableWidth(tableRef.current);
         if (!isVirtualScrollerDisabled()) {

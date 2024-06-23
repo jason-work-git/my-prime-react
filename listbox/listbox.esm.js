@@ -1,14 +1,14 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext, FilterService, localeOption } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useMountEffect } from 'primereact/hooks';
-import { Tooltip } from 'primereact/tooltip';
-import { classNames, IconUtils, ObjectUtils, DomHandler, UniqueComponentId } from 'primereact/utils';
-import { VirtualScroller } from 'primereact/virtualscroller';
-import { SearchIcon } from 'primereact/icons/search';
-import { InputText } from 'primereact/inputtext';
-import { Ripple } from 'primereact/ripple';
+import { PrimeReactContext, FilterService, localeOption } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useMountEffect } from 'ytg-reusable-components/hooks';
+import { Tooltip } from 'ytg-reusable-components/tooltip';
+import { classNames, IconUtils, ObjectUtils, DomHandler, UniqueComponentId } from 'ytg-reusable-components/utils';
+import { VirtualScroller } from 'ytg-reusable-components/virtualscroller';
+import { SearchIcon } from 'ytg-reusable-components/icons/search';
+import { InputText } from 'ytg-reusable-components/inputtext';
+import { Ripple } from 'ytg-reusable-components/ripple';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

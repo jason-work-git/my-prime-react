@@ -4,36 +4,36 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var React = require('react');
-var PrimeReact$1 = require('primereact/api');
-var componentbase = require('primereact/componentbase');
-var utils = require('primereact/utils');
-var hooks = require('primereact/hooks');
-var arrowdown = require('primereact/icons/arrowdown');
-var arrowup = require('primereact/icons/arrowup');
-var spinner = require('primereact/icons/spinner');
-var paginator = require('primereact/paginator');
-var virtualscroller = require('primereact/virtualscroller');
-var bars = require('primereact/icons/bars');
-var check = require('primereact/icons/check');
-var chevrondown = require('primereact/icons/chevrondown');
-var chevronright = require('primereact/icons/chevronright');
-var pencil = require('primereact/icons/pencil');
-var times = require('primereact/icons/times');
-var overlayservice = require('primereact/overlayservice');
-var ripple = require('primereact/ripple');
-var tooltip = require('primereact/tooltip');
-var button = require('primereact/button');
-var csstransition = require('primereact/csstransition');
-var dropdown = require('primereact/dropdown');
-var filter = require('primereact/icons/filter');
-var filterslash = require('primereact/icons/filterslash');
-var plus = require('primereact/icons/plus');
-var trash = require('primereact/icons/trash');
-var inputtext = require('primereact/inputtext');
-var portal = require('primereact/portal');
-var sortalt = require('primereact/icons/sortalt');
-var sortamountdown = require('primereact/icons/sortamountdown');
-var sortamountupalt = require('primereact/icons/sortamountupalt');
+var PrimeReact$1 = require('ytg-reusable-components/api');
+var componentbase = require('ytg-reusable-components/componentbase');
+var utils = require('ytg-reusable-components/utils');
+var hooks = require('ytg-reusable-components/hooks');
+var arrowdown = require('ytg-reusable-components/icons/arrowdown');
+var arrowup = require('ytg-reusable-components/icons/arrowup');
+var spinner = require('ytg-reusable-components/icons/spinner');
+var paginator = require('ytg-reusable-components/paginator');
+var virtualscroller = require('ytg-reusable-components/virtualscroller');
+var bars = require('ytg-reusable-components/icons/bars');
+var check = require('ytg-reusable-components/icons/check');
+var chevrondown = require('ytg-reusable-components/icons/chevrondown');
+var chevronright = require('ytg-reusable-components/icons/chevronright');
+var pencil = require('ytg-reusable-components/icons/pencil');
+var times = require('ytg-reusable-components/icons/times');
+var overlayservice = require('ytg-reusable-components/overlayservice');
+var ripple = require('ytg-reusable-components/ripple');
+var tooltip = require('ytg-reusable-components/tooltip');
+var button = require('ytg-reusable-components/button');
+var csstransition = require('ytg-reusable-components/csstransition');
+var dropdown = require('ytg-reusable-components/dropdown');
+var filter = require('ytg-reusable-components/icons/filter');
+var filterslash = require('ytg-reusable-components/icons/filterslash');
+var plus = require('ytg-reusable-components/icons/plus');
+var trash = require('ytg-reusable-components/icons/trash');
+var inputtext = require('ytg-reusable-components/inputtext');
+var portal = require('ytg-reusable-components/portal');
+var sortalt = require('ytg-reusable-components/icons/sortalt');
+var sortamountdown = require('ytg-reusable-components/icons/sortamountdown');
+var sortamountupalt = require('ytg-reusable-components/icons/sortamountupalt');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
@@ -6161,7 +6161,7 @@ var DataTable = /*#__PURE__*/React__namespace.forwardRef(function (inProps, ref)
           !!el && (el.style.width = el.style.minWidth = tableWidth);
         };
 
-        // https://github.com/primefaces/primereact/issues/3970 Reasoning: resize table cells before updating the table width so that it can use existing computed cell widths and adjust only the one column.
+        // https://github.com/primefaces/ytg-reusable-components/issues/3970 Reasoning: resize table cells before updating the table width so that it can use existing computed cell widths and adjust only the one column.
         resizeTableCells(newColumnWidth);
         updateTableWidth(tableRef.current);
         if (!isVirtualScrollerDisabled()) {

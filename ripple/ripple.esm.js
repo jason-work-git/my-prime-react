@@ -1,9 +1,9 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { PrimeReactContext } from 'primereact/api';
-import { useMergeProps, useStyle, useMountEffect, useUpdateEffect, useUnmountEffect } from 'primereact/hooks';
-import { ObjectUtils, classNames, DomHandler } from 'primereact/utils';
-import { ComponentBase } from 'primereact/componentbase';
+import PrimeReact, { PrimeReactContext } from 'ytg-reusable-components/api';
+import { useMergeProps, useStyle, useMountEffect, useUpdateEffect, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { ObjectUtils, classNames, DomHandler } from 'ytg-reusable-components/utils';
+import { ComponentBase } from 'ytg-reusable-components/componentbase';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

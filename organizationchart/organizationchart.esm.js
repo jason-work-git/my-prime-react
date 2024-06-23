@@ -1,11 +1,11 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps } from 'primereact/hooks';
-import { classNames, IconUtils, ObjectUtils, DomHandler } from 'primereact/utils';
-import { ChevronDownIcon } from 'primereact/icons/chevrondown';
-import { ChevronUpIcon } from 'primereact/icons/chevronup';
+import { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps } from 'ytg-reusable-components/hooks';
+import { classNames, IconUtils, ObjectUtils, DomHandler } from 'ytg-reusable-components/utils';
+import { ChevronDownIcon } from 'ytg-reusable-components/icons/chevrondown';
+import { ChevronUpIcon } from 'ytg-reusable-components/icons/chevronup';
 
 function _arrayLikeToArray(arr, len) {
   if (len == null || len > arr.length) len = arr.length;

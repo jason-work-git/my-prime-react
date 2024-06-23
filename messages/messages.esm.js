@@ -1,17 +1,17 @@
 'use client';
 import * as React from 'react';
 import { TransitionGroup } from 'react-transition-group';
-import { localeOption, PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { CSSTransition } from 'primereact/csstransition';
-import { useMergeProps, useTimeout } from 'primereact/hooks';
-import { classNames, IconUtils, ObjectUtils } from 'primereact/utils';
-import { CheckIcon } from 'primereact/icons/check';
-import { ExclamationTriangleIcon } from 'primereact/icons/exclamationtriangle';
-import { InfoCircleIcon } from 'primereact/icons/infocircle';
-import { TimesIcon } from 'primereact/icons/times';
-import { TimesCircleIcon } from 'primereact/icons/timescircle';
-import { Ripple } from 'primereact/ripple';
+import { localeOption, PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { CSSTransition } from 'ytg-reusable-components/csstransition';
+import { useMergeProps, useTimeout } from 'ytg-reusable-components/hooks';
+import { classNames, IconUtils, ObjectUtils } from 'ytg-reusable-components/utils';
+import { CheckIcon } from 'ytg-reusable-components/icons/check';
+import { ExclamationTriangleIcon } from 'ytg-reusable-components/icons/exclamationtriangle';
+import { InfoCircleIcon } from 'ytg-reusable-components/icons/infocircle';
+import { TimesIcon } from 'ytg-reusable-components/icons/times';
+import { TimesCircleIcon } from 'ytg-reusable-components/icons/timescircle';
+import { Ripple } from 'ytg-reusable-components/ripple';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

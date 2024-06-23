@@ -1,10 +1,10 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext } from 'primereact/api';
-import { useMergeProps, usePrevious, useStyle, useResizeListener, useEventListener, useMountEffect, useUpdateEffect } from 'primereact/hooks';
-import { SpinnerIcon } from 'primereact/icons/spinner';
-import { DomHandler, ObjectUtils, classNames, IconUtils } from 'primereact/utils';
-import { ComponentBase } from 'primereact/componentbase';
+import { PrimeReactContext } from 'ytg-reusable-components/api';
+import { useMergeProps, usePrevious, useStyle, useResizeListener, useEventListener, useMountEffect, useUpdateEffect } from 'ytg-reusable-components/hooks';
+import { SpinnerIcon } from 'ytg-reusable-components/icons/spinner';
+import { DomHandler, ObjectUtils, classNames, IconUtils } from 'ytg-reusable-components/utils';
+import { ComponentBase } from 'ytg-reusable-components/componentbase';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

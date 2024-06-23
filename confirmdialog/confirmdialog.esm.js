@@ -1,13 +1,13 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext, localeOption } from 'primereact/api';
-import { Button } from 'primereact/button';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { Dialog } from 'primereact/dialog';
-import { useMergeProps, useUpdateEffect, useUnmountEffect } from 'primereact/hooks';
-import { OverlayService } from 'primereact/overlayservice';
-import { Portal } from 'primereact/portal';
-import { classNames, DomHandler, ObjectUtils, IconUtils } from 'primereact/utils';
+import { PrimeReactContext, localeOption } from 'ytg-reusable-components/api';
+import { Button } from 'ytg-reusable-components/button';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { Dialog } from 'ytg-reusable-components/dialog';
+import { useMergeProps, useUpdateEffect, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { OverlayService } from 'ytg-reusable-components/overlayservice';
+import { Portal } from 'ytg-reusable-components/portal';
+import { classNames, DomHandler, ObjectUtils, IconUtils } from 'ytg-reusable-components/utils';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

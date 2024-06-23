@@ -1,9 +1,9 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext } from 'primereact/api';
-import { useMergeProps } from 'primereact/hooks';
-import { ComponentBase } from 'primereact/componentbase';
-import { ObjectUtils } from 'primereact/utils';
+import { PrimeReactContext } from 'ytg-reusable-components/api';
+import { useMergeProps } from 'ytg-reusable-components/hooks';
+import { ComponentBase } from 'ytg-reusable-components/componentbase';
+import { ObjectUtils } from 'ytg-reusable-components/utils';
 
 var RowBase = ComponentBase.extend({
   defaultProps: {

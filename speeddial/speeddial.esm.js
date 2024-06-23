@@ -1,13 +1,13 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext } from 'primereact/api';
-import { Button } from 'primereact/button';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useDisplayOrder, useGlobalOnEscapeKey, ESC_KEY_HANDLING_PRIORITIES, useEventListener, useMountEffect, useUpdateEffect } from 'primereact/hooks';
-import { MinusIcon } from 'primereact/icons/minus';
-import { PlusIcon } from 'primereact/icons/plus';
-import { Ripple } from 'primereact/ripple';
-import { classNames, DomHandler, UniqueComponentId, IconUtils, ObjectUtils } from 'primereact/utils';
+import { PrimeReactContext } from 'ytg-reusable-components/api';
+import { Button } from 'ytg-reusable-components/button';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useDisplayOrder, useGlobalOnEscapeKey, ESC_KEY_HANDLING_PRIORITIES, useEventListener, useMountEffect, useUpdateEffect } from 'ytg-reusable-components/hooks';
+import { MinusIcon } from 'ytg-reusable-components/icons/minus';
+import { PlusIcon } from 'ytg-reusable-components/icons/plus';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { classNames, DomHandler, UniqueComponentId, IconUtils, ObjectUtils } from 'ytg-reusable-components/utils';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

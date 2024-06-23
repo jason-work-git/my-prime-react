@@ -4,21 +4,21 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var React = require('react');
-var PrimeReact$1 = require('primereact/api');
-var componentbase = require('primereact/componentbase');
-var hooks = require('primereact/hooks');
-var utils = require('primereact/utils');
-var button = require('primereact/button');
-var angledoubledown = require('primereact/icons/angledoubledown');
-var angledoubleup = require('primereact/icons/angledoubleup');
-var angledown = require('primereact/icons/angledown');
-var angleup = require('primereact/icons/angleup');
-var search = require('primereact/icons/search');
-var ripple = require('primereact/ripple');
-var angledoubleleft = require('primereact/icons/angledoubleleft');
-var angledoubleright = require('primereact/icons/angledoubleright');
-var angleleft = require('primereact/icons/angleleft');
-var angleright = require('primereact/icons/angleright');
+var PrimeReact$1 = require('ytg-reusable-components/api');
+var componentbase = require('ytg-reusable-components/componentbase');
+var hooks = require('ytg-reusable-components/hooks');
+var utils = require('ytg-reusable-components/utils');
+var button = require('ytg-reusable-components/button');
+var angledoubledown = require('ytg-reusable-components/icons/angledoubledown');
+var angledoubleup = require('ytg-reusable-components/icons/angledoubleup');
+var angledown = require('ytg-reusable-components/icons/angledown');
+var angleup = require('ytg-reusable-components/icons/angleup');
+var search = require('ytg-reusable-components/icons/search');
+var ripple = require('ytg-reusable-components/ripple');
+var angledoubleleft = require('ytg-reusable-components/icons/angledoubleleft');
+var angledoubleright = require('ytg-reusable-components/icons/angledoubleright');
+var angleleft = require('ytg-reusable-components/icons/angleleft');
+var angleright = require('ytg-reusable-components/icons/angleright');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 

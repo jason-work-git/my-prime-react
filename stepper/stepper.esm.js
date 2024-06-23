@@ -1,11 +1,11 @@
 'use client';
 import * as React from 'react';
 import React__default from 'react';
-import { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { CSSTransition } from 'primereact/csstransition';
-import { useMergeProps, useMountEffect } from 'primereact/hooks';
-import { classNames, UniqueComponentId } from 'primereact/utils';
+import { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { CSSTransition } from 'ytg-reusable-components/csstransition';
+import { useMergeProps, useMountEffect } from 'ytg-reusable-components/hooks';
+import { classNames, UniqueComponentId } from 'ytg-reusable-components/utils';
 
 function _typeof(o) {
   "@babel/helpers - typeof";

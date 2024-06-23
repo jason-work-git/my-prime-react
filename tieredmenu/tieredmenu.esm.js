@@ -1,14 +1,14 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { CSSTransition } from 'primereact/csstransition';
-import { useMergeProps, useUpdateEffect, useMatchMedia, useEventListener, useResizeListener, useMountEffect, useUnmountEffect } from 'primereact/hooks';
-import { OverlayService } from 'primereact/overlayservice';
-import { Portal } from 'primereact/portal';
-import { classNames, DomHandler, ObjectUtils, IconUtils, UniqueComponentId, ZIndexUtils } from 'primereact/utils';
-import { AngleRightIcon } from 'primereact/icons/angleright';
-import { Ripple } from 'primereact/ripple';
+import PrimeReact, { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { CSSTransition } from 'ytg-reusable-components/csstransition';
+import { useMergeProps, useUpdateEffect, useMatchMedia, useEventListener, useResizeListener, useMountEffect, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { OverlayService } from 'ytg-reusable-components/overlayservice';
+import { Portal } from 'ytg-reusable-components/portal';
+import { classNames, DomHandler, ObjectUtils, IconUtils, UniqueComponentId, ZIndexUtils } from 'ytg-reusable-components/utils';
+import { AngleRightIcon } from 'ytg-reusable-components/icons/angleright';
+import { Ripple } from 'ytg-reusable-components/ripple';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

@@ -1,12 +1,12 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { PrimeReactContext, localeOption } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { CSSTransition } from 'primereact/csstransition';
-import { useMergeProps, useEventListener, useUnmountEffect } from 'primereact/hooks';
-import { ChevronUpIcon } from 'primereact/icons/chevronup';
-import { Ripple } from 'primereact/ripple';
-import { classNames, DomHandler, ZIndexUtils, IconUtils } from 'primereact/utils';
+import PrimeReact, { PrimeReactContext, localeOption } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { CSSTransition } from 'ytg-reusable-components/csstransition';
+import { useMergeProps, useEventListener, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { ChevronUpIcon } from 'ytg-reusable-components/icons/chevronup';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { classNames, DomHandler, ZIndexUtils, IconUtils } from 'ytg-reusable-components/utils';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

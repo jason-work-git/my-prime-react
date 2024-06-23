@@ -1,10 +1,10 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useResizeListener, useOverlayScrollListener, useMountEffect, useUpdateEffect, useUnmountEffect } from 'primereact/hooks';
-import { Portal } from 'primereact/portal';
-import { classNames, DomHandler, ZIndexUtils, ObjectUtils } from 'primereact/utils';
+import PrimeReact, { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useResizeListener, useOverlayScrollListener, useMountEffect, useUpdateEffect, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { Portal } from 'ytg-reusable-components/portal';
+import { classNames, DomHandler, ZIndexUtils, ObjectUtils } from 'ytg-reusable-components/utils';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

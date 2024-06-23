@@ -1,20 +1,20 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { localeOption, PrimeReactContext, localeOptions } from 'primereact/api';
-import { Button } from 'primereact/button';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, usePrevious, useOverlayListener, useMountEffect, useUpdateEffect, useUnmountEffect } from 'primereact/hooks';
-import { CalendarIcon } from 'primereact/icons/calendar';
-import { ChevronDownIcon } from 'primereact/icons/chevrondown';
-import { ChevronLeftIcon } from 'primereact/icons/chevronleft';
-import { ChevronRightIcon } from 'primereact/icons/chevronright';
-import { ChevronUpIcon } from 'primereact/icons/chevronup';
-import { InputText } from 'primereact/inputtext';
-import { OverlayService } from 'primereact/overlayservice';
-import { Ripple } from 'primereact/ripple';
-import { classNames, UniqueComponentId, DomHandler, ObjectUtils, mask, ZIndexUtils, IconUtils } from 'primereact/utils';
-import { CSSTransition } from 'primereact/csstransition';
-import { Portal } from 'primereact/portal';
+import PrimeReact, { localeOption, PrimeReactContext, localeOptions } from 'ytg-reusable-components/api';
+import { Button } from 'ytg-reusable-components/button';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, usePrevious, useOverlayListener, useMountEffect, useUpdateEffect, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { CalendarIcon } from 'ytg-reusable-components/icons/calendar';
+import { ChevronDownIcon } from 'ytg-reusable-components/icons/chevrondown';
+import { ChevronLeftIcon } from 'ytg-reusable-components/icons/chevronleft';
+import { ChevronRightIcon } from 'ytg-reusable-components/icons/chevronright';
+import { ChevronUpIcon } from 'ytg-reusable-components/icons/chevronup';
+import { InputText } from 'ytg-reusable-components/inputtext';
+import { OverlayService } from 'ytg-reusable-components/overlayservice';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { classNames, UniqueComponentId, DomHandler, ObjectUtils, mask, ZIndexUtils, IconUtils } from 'ytg-reusable-components/utils';
+import { CSSTransition } from 'ytg-reusable-components/csstransition';
+import { Portal } from 'ytg-reusable-components/portal';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {
@@ -2948,7 +2948,7 @@ var Calendar = /*#__PURE__*/React.memo( /*#__PURE__*/React.forwardRef(function (
     }
   });
   React.useEffect(function () {
-    // see https://github.com/primefaces/primereact/issues/4030
+    // see https://github.com/primefaces/ytg-reusable-components/issues/4030
     onChangeRef.current = props.onChange;
   }, [props.onChange]);
   React.useEffect(function () {

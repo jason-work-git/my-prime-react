@@ -1109,7 +1109,7 @@ var primereact = (function (exports, React, reactTransitionGroup, ReactDOM) {
       key: "blockBodyScroll",
       value: function blockBodyScroll() {
         var className = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'p-overflow-hidden';
-        /* PR Ref: https://github.com/primefaces/primereact/pull/4976
+        /* PR Ref: https://github.com/primefaces/ytg-reusable-components/pull/4976
          * @todo This method is called several times after this PR. Refactors will be made to prevent this in future releases.
          */
         var hasScrollbarWidth = !!document.body.style.getPropertyValue('--scrollbar-width');
@@ -1605,7 +1605,7 @@ var primereact = (function (exports, React, reactTransitionGroup, ReactDOM) {
             return value;
           }
         } catch (_unused) {
-          // Performance optimization: https://github.com/primefaces/primereact/issues/4797
+          // Performance optimization: https://github.com/primefaces/ytg-reusable-components/issues/4797
           // do nothing and continue to other methods to resolve field data
         }
         if (Object.keys(data).length) {
@@ -12063,7 +12063,7 @@ var primereact = (function (exports, React, reactTransitionGroup, ReactDOM) {
       }
     });
     React__namespace.useEffect(function () {
-      // see https://github.com/primefaces/primereact/issues/4030
+      // see https://github.com/primefaces/ytg-reusable-components/issues/4030
       onChangeRef.current = props.onChange;
     }, [props.onChange]);
     React__namespace.useEffect(function () {
@@ -28635,7 +28635,7 @@ var primereact = (function (exports, React, reactTransitionGroup, ReactDOM) {
             !!el && (el.style.width = el.style.minWidth = tableWidth);
           };
 
-          // https://github.com/primefaces/primereact/issues/3970 Reasoning: resize table cells before updating the table width so that it can use existing computed cell widths and adjust only the one column.
+          // https://github.com/primefaces/ytg-reusable-components/issues/3970 Reasoning: resize table cells before updating the table width so that it can use existing computed cell widths and adjust only the one column.
           resizeTableCells(newColumnWidth);
           updateTableWidth(tableRef.current);
           if (!isVirtualScrollerDisabled()) {

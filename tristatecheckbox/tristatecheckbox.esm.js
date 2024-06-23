@@ -1,12 +1,12 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext, ariaLabel } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useMountEffect } from 'primereact/hooks';
-import { CheckIcon } from 'primereact/icons/check';
-import { TimesIcon } from 'primereact/icons/times';
-import { Tooltip } from 'primereact/tooltip';
-import { classNames, DomHandler, ObjectUtils, IconUtils } from 'primereact/utils';
+import { PrimeReactContext, ariaLabel } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useMountEffect } from 'ytg-reusable-components/hooks';
+import { CheckIcon } from 'ytg-reusable-components/icons/check';
+import { TimesIcon } from 'ytg-reusable-components/icons/times';
+import { Tooltip } from 'ytg-reusable-components/tooltip';
+import { classNames, DomHandler, ObjectUtils, IconUtils } from 'ytg-reusable-components/utils';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

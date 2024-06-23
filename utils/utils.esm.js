@@ -1045,7 +1045,7 @@ var DomHandler = /*#__PURE__*/function () {
     key: "blockBodyScroll",
     value: function blockBodyScroll() {
       var className = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'p-overflow-hidden';
-      /* PR Ref: https://github.com/primefaces/primereact/pull/4976
+      /* PR Ref: https://github.com/primefaces/ytg-reusable-components/pull/4976
        * @todo This method is called several times after this PR. Refactors will be made to prevent this in future releases.
        */
       var hasScrollbarWidth = !!document.body.style.getPropertyValue('--scrollbar-width');
@@ -1556,7 +1556,7 @@ var ObjectUtils = /*#__PURE__*/function () {
           return value;
         }
       } catch (_unused) {
-        // Performance optimization: https://github.com/primefaces/primereact/issues/4797
+        // Performance optimization: https://github.com/primefaces/ytg-reusable-components/issues/4797
         // do nothing and continue to other methods to resolve field data
       }
       if (Object.keys(data).length) {

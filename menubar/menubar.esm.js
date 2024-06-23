@@ -1,13 +1,13 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { PrimeReactContext, ariaLabel } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useEventListener, useResizeListener, useMountEffect, useUpdateEffect, useUnmountEffect } from 'primereact/hooks';
-import { BarsIcon } from 'primereact/icons/bars';
-import { classNames, ObjectUtils, IconUtils, DomHandler, UniqueComponentId, ZIndexUtils } from 'primereact/utils';
-import { AngleDownIcon } from 'primereact/icons/angledown';
-import { AngleRightIcon } from 'primereact/icons/angleright';
-import { Ripple } from 'primereact/ripple';
+import PrimeReact, { PrimeReactContext, ariaLabel } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useEventListener, useResizeListener, useMountEffect, useUpdateEffect, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { BarsIcon } from 'ytg-reusable-components/icons/bars';
+import { classNames, ObjectUtils, IconUtils, DomHandler, UniqueComponentId, ZIndexUtils } from 'ytg-reusable-components/utils';
+import { AngleDownIcon } from 'ytg-reusable-components/icons/angledown';
+import { AngleRightIcon } from 'ytg-reusable-components/icons/angleright';
+import { Ripple } from 'ytg-reusable-components/ripple';
 
 function _typeof(o) {
   "@babel/helpers - typeof";

@@ -1,10 +1,10 @@
 'use client';
 import React, { useRef, useContext, useState } from 'react';
-import { PrimeReactContext, ariaLabel } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useUpdateEffect } from 'primereact/hooks';
-import { InputText } from 'primereact/inputtext';
-import { ObjectUtils } from 'primereact/utils';
+import { PrimeReactContext, ariaLabel } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useUpdateEffect } from 'ytg-reusable-components/hooks';
+import { InputText } from 'ytg-reusable-components/inputtext';
+import { ObjectUtils } from 'ytg-reusable-components/utils';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

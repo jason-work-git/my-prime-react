@@ -1,14 +1,14 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { PrimeReactContext, localeOption } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { BarsIcon } from 'primereact/icons/bars';
-import { SpinnerIcon } from 'primereact/icons/spinner';
-import { ThLargeIcon } from 'primereact/icons/thlarge';
-import { Paginator } from 'primereact/paginator';
-import { Ripple } from 'primereact/ripple';
-import { classNames, IconUtils, ObjectUtils } from 'primereact/utils';
-import { useMergeProps } from 'primereact/hooks';
+import PrimeReact, { PrimeReactContext, localeOption } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { BarsIcon } from 'ytg-reusable-components/icons/bars';
+import { SpinnerIcon } from 'ytg-reusable-components/icons/spinner';
+import { ThLargeIcon } from 'ytg-reusable-components/icons/thlarge';
+import { Paginator } from 'ytg-reusable-components/paginator';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { classNames, IconUtils, ObjectUtils } from 'ytg-reusable-components/utils';
+import { useMergeProps } from 'ytg-reusable-components/hooks';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

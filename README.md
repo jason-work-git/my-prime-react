@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm version](https://badge.fury.io/js/primereact.svg)](https://badge.fury.io/js/primereact)
-[![primereact](https://snyk.io/advisor/npm-package/primereact/badge.svg)](https://snyk.io/advisor/npm-package/primereact)
-[![Actions CI](https://github.com/primefaces/primereact/workflows/NodeJS%20CI/badge.svg)](https://github.com/primefaces/primereact/actions/workflows/node.js.yml)
+[![primereact](https://snyk.io/advisor/npm-package/ytg-reusable-components/badge.svg)](https://snyk.io/advisor/npm-package/primereact)
+[![Actions CI](https://github.com/primefaces/ytg-reusable-components/workflows/NodeJS%20CI/badge.svg)](https://github.com/primefaces/ytg-reusable-components/actions/workflows/node.js.yml)
 [![Discord Chat](https://img.shields.io/discord/557940238991753223.svg?color=7289da&label=chat&logo=discord)](https://discord.gg/gzKFYnpmCY)
 [![Stackoverflow](https://img.shields.io/badge/StackOverflow-primereact-chocolate.svg)](https://stackoverflow.com/questions/tagged/primereact)
 [![Prime Discussions](https://img.shields.io/github/discussions-search?query=org%3Aprimefaces&logo=github&label=Prime%20Discussions&link=https%3A%2F%2Fgithub.com%2Forgs%2Fprimefaces%2Fdiscussions)](https://github.com/orgs/primefaces/discussions)
@@ -32,8 +32,8 @@ pnpm add primereact
 Each component can be imported individually so that you only bundle what you use. Import path is available in the documentation of the corresponding component.
 
 ```javascript
-//import { ComponentName } from 'primereact/{componentname}';
-import { Button } from 'primereact/button';
+//import { ComponentName } from 'ytg-reusable-components/{componentname}';
+import { Button } from 'ytg-reusable-components/button';
 
 export default function MyComponent() {
   return (
@@ -52,7 +52,7 @@ Styled mode is based on pre-skinned components with opinionated themes like Mate
 
 ```javascript
 // theme
-import 'primereact/resources/themes/lara-light-cyan/theme.css';
+import 'ytg-reusable-components/resources/themes/lara-light-cyan/theme.css';
 ```
 
 **Unstyled Mode**
@@ -61,6 +61,6 @@ Unstyled mode is disabled by default for all components. Using the PrimeReact co
 
 ## Contributors
 
-<a href="https://github.com/primefaces/primereact/graphs/contributors">
+<a href="https://github.com/primefaces/ytg-reusable-components/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=primefaces/primereact" />
 </a>

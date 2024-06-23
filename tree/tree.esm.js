@@ -1,17 +1,17 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext, localeOption } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useUpdateEffect as useUpdateEffect$1, useMountEffect } from 'primereact/hooks';
-import { SearchIcon } from 'primereact/icons/search';
-import { SpinnerIcon } from 'primereact/icons/spinner';
-import { classNames, DomHandler, ObjectUtils, IconUtils } from 'primereact/utils';
-import { CheckIcon } from 'primereact/icons/check';
-import { ChevronDownIcon } from 'primereact/icons/chevrondown';
-import { ChevronRightIcon } from 'primereact/icons/chevronright';
-import { MinusIcon } from 'primereact/icons/minus';
-import { Ripple } from 'primereact/ripple';
-import { Tooltip } from 'primereact/tooltip';
+import { PrimeReactContext, localeOption } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useUpdateEffect as useUpdateEffect$1, useMountEffect } from 'ytg-reusable-components/hooks';
+import { SearchIcon } from 'ytg-reusable-components/icons/search';
+import { SpinnerIcon } from 'ytg-reusable-components/icons/spinner';
+import { classNames, DomHandler, ObjectUtils, IconUtils } from 'ytg-reusable-components/utils';
+import { CheckIcon } from 'ytg-reusable-components/icons/check';
+import { ChevronDownIcon } from 'ytg-reusable-components/icons/chevrondown';
+import { ChevronRightIcon } from 'ytg-reusable-components/icons/chevronright';
+import { MinusIcon } from 'ytg-reusable-components/icons/minus';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { Tooltip } from 'ytg-reusable-components/tooltip';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

@@ -188,7 +188,7 @@ export interface EditorProps extends Omit<React.DetailedHTMLProps<React.InputHTM
  *
  * [Live Demo](https://www.primereact.org/editor/)
  * --- ---
- * ![PrimeReact](https://primefaces.org/cdn/primereact/images/logo-100.png)
+ * ![PrimeReact](https://primefaces.org/cdn/ytg-reusable-components/images/logo-100.png)
  *
  * @group Component
  */

@@ -4,14 +4,14 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var React = require('react');
-var api = require('primereact/api');
-var componentbase = require('primereact/componentbase');
-var hooks = require('primereact/hooks');
-var check = require('primereact/icons/check');
-var exclamationtriangle = require('primereact/icons/exclamationtriangle');
-var infocircle = require('primereact/icons/infocircle');
-var timescircle = require('primereact/icons/timescircle');
-var utils = require('primereact/utils');
+var api = require('ytg-reusable-components/api');
+var componentbase = require('ytg-reusable-components/componentbase');
+var hooks = require('ytg-reusable-components/hooks');
+var check = require('ytg-reusable-components/icons/check');
+var exclamationtriangle = require('ytg-reusable-components/icons/exclamationtriangle');
+var infocircle = require('ytg-reusable-components/icons/infocircle');
+var timescircle = require('ytg-reusable-components/icons/timescircle');
+var utils = require('ytg-reusable-components/utils');
 
 function _interopNamespace(e) {
   if (e && e.__esModule) return e;

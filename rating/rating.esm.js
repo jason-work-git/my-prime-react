@@ -1,13 +1,13 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps } from 'primereact/hooks';
-import { BanIcon } from 'primereact/icons/ban';
-import { StarIcon } from 'primereact/icons/star';
-import { StarFillIcon } from 'primereact/icons/starfill';
-import { Tooltip } from 'primereact/tooltip';
-import { classNames, ObjectUtils, IconUtils } from 'primereact/utils';
+import { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps } from 'ytg-reusable-components/hooks';
+import { BanIcon } from 'ytg-reusable-components/icons/ban';
+import { StarIcon } from 'ytg-reusable-components/icons/star';
+import { StarFillIcon } from 'ytg-reusable-components/icons/starfill';
+import { Tooltip } from 'ytg-reusable-components/tooltip';
+import { classNames, ObjectUtils, IconUtils } from 'ytg-reusable-components/utils';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

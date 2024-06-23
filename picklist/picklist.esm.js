@@ -1,20 +1,20 @@
 'use client';
 import * as React from 'react';
-import PrimeReact$1, { ariaLabel as ariaLabel$1, PrimeReactContext, FilterService } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useMatchMedia, useUpdateEffect } from 'primereact/hooks';
-import { classNames, ObjectUtils, IconUtils, UniqueComponentId, DomHandler } from 'primereact/utils';
-import { Button } from 'primereact/button';
-import { AngleDoubleDownIcon } from 'primereact/icons/angledoubledown';
-import { AngleDoubleUpIcon } from 'primereact/icons/angledoubleup';
-import { AngleDownIcon } from 'primereact/icons/angledown';
-import { AngleUpIcon } from 'primereact/icons/angleup';
-import { SearchIcon } from 'primereact/icons/search';
-import { Ripple } from 'primereact/ripple';
-import { AngleDoubleLeftIcon } from 'primereact/icons/angledoubleleft';
-import { AngleDoubleRightIcon } from 'primereact/icons/angledoubleright';
-import { AngleLeftIcon } from 'primereact/icons/angleleft';
-import { AngleRightIcon } from 'primereact/icons/angleright';
+import PrimeReact$1, { ariaLabel as ariaLabel$1, PrimeReactContext, FilterService } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useMatchMedia, useUpdateEffect } from 'ytg-reusable-components/hooks';
+import { classNames, ObjectUtils, IconUtils, UniqueComponentId, DomHandler } from 'ytg-reusable-components/utils';
+import { Button } from 'ytg-reusable-components/button';
+import { AngleDoubleDownIcon } from 'ytg-reusable-components/icons/angledoubledown';
+import { AngleDoubleUpIcon } from 'ytg-reusable-components/icons/angledoubleup';
+import { AngleDownIcon } from 'ytg-reusable-components/icons/angledown';
+import { AngleUpIcon } from 'ytg-reusable-components/icons/angleup';
+import { SearchIcon } from 'ytg-reusable-components/icons/search';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { AngleDoubleLeftIcon } from 'ytg-reusable-components/icons/angledoubleleft';
+import { AngleDoubleRightIcon } from 'ytg-reusable-components/icons/angledoubleright';
+import { AngleLeftIcon } from 'ytg-reusable-components/icons/angleleft';
+import { AngleRightIcon } from 'ytg-reusable-components/icons/angleright';
 
 function _readOnlyError(name) {
   throw new TypeError("\"" + name + "\" is read-only");

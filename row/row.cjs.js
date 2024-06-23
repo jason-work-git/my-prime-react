@@ -4,10 +4,10 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var React = require('react');
-var api = require('primereact/api');
-var hooks = require('primereact/hooks');
-var componentbase = require('primereact/componentbase');
-var utils = require('primereact/utils');
+var api = require('ytg-reusable-components/api');
+var hooks = require('ytg-reusable-components/hooks');
+var componentbase = require('ytg-reusable-components/componentbase');
+var utils = require('ytg-reusable-components/utils');
 
 function _interopNamespace(e) {
     if (e && e.__esModule) return e;

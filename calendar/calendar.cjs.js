@@ -4,21 +4,21 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var React = require('react');
-var PrimeReact = require('primereact/api');
-var button = require('primereact/button');
-var componentbase = require('primereact/componentbase');
-var hooks = require('primereact/hooks');
-var calendar = require('primereact/icons/calendar');
-var chevrondown = require('primereact/icons/chevrondown');
-var chevronleft = require('primereact/icons/chevronleft');
-var chevronright = require('primereact/icons/chevronright');
-var chevronup = require('primereact/icons/chevronup');
-var inputtext = require('primereact/inputtext');
-var overlayservice = require('primereact/overlayservice');
-var ripple = require('primereact/ripple');
-var utils = require('primereact/utils');
-var csstransition = require('primereact/csstransition');
-var portal = require('primereact/portal');
+var PrimeReact = require('ytg-reusable-components/api');
+var button = require('ytg-reusable-components/button');
+var componentbase = require('ytg-reusable-components/componentbase');
+var hooks = require('ytg-reusable-components/hooks');
+var calendar = require('ytg-reusable-components/icons/calendar');
+var chevrondown = require('ytg-reusable-components/icons/chevrondown');
+var chevronleft = require('ytg-reusable-components/icons/chevronleft');
+var chevronright = require('ytg-reusable-components/icons/chevronright');
+var chevronup = require('ytg-reusable-components/icons/chevronup');
+var inputtext = require('ytg-reusable-components/inputtext');
+var overlayservice = require('ytg-reusable-components/overlayservice');
+var ripple = require('ytg-reusable-components/ripple');
+var utils = require('ytg-reusable-components/utils');
+var csstransition = require('ytg-reusable-components/csstransition');
+var portal = require('ytg-reusable-components/portal');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
@@ -2975,7 +2975,7 @@ var Calendar = /*#__PURE__*/React__namespace.memo( /*#__PURE__*/React__namespace
     }
   });
   React__namespace.useEffect(function () {
-    // see https://github.com/primefaces/primereact/issues/4030
+    // see https://github.com/primefaces/ytg-reusable-components/issues/4030
     onChangeRef.current = props.onChange;
   }, [props.onChange]);
   React__namespace.useEffect(function () {

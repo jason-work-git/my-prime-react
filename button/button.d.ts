@@ -192,7 +192,7 @@ export interface ButtonProps extends Omit<React.DetailedHTMLProps<React.ButtonHT
  *
  * [Live Demo](https://www.primereact.org/button/)
  * --- ---
- * ![PrimeReact](https://primefaces.org/cdn/primereact/images/logo-100.png)
+ * ![PrimeReact](https://primefaces.org/cdn/ytg-reusable-components/images/logo-100.png)
  *
  * @group Component
  */

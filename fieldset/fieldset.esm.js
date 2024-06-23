@@ -1,13 +1,13 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { CSSTransition } from 'primereact/csstransition';
-import { useMergeProps, useMountEffect } from 'primereact/hooks';
-import { MinusIcon } from 'primereact/icons/minus';
-import { PlusIcon } from 'primereact/icons/plus';
-import { Ripple } from 'primereact/ripple';
-import { classNames, UniqueComponentId, IconUtils } from 'primereact/utils';
+import { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { CSSTransition } from 'ytg-reusable-components/csstransition';
+import { useMergeProps, useMountEffect } from 'ytg-reusable-components/hooks';
+import { MinusIcon } from 'ytg-reusable-components/icons/minus';
+import { PlusIcon } from 'ytg-reusable-components/icons/plus';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { classNames, UniqueComponentId, IconUtils } from 'ytg-reusable-components/utils';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

@@ -192,7 +192,7 @@ export interface FieldsetProps extends Omit<React.DetailedHTMLProps<React.HTMLAt
  *
  * [Live Demo](https://www.primereact.org/fieldset/)
  * --- ---
- * ![PrimeReact](https://primefaces.org/cdn/primereact/images/logo-100.png)
+ * ![PrimeReact](https://primefaces.org/cdn/ytg-reusable-components/images/logo-100.png)
  *
  * @group Component
  */

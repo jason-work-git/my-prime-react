@@ -4,15 +4,15 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var React = require('react');
-var PrimeReact = require('primereact/api');
-var componentbase = require('primereact/componentbase');
-var hooks = require('primereact/hooks');
-var angledown = require('primereact/icons/angledown');
-var angleup = require('primereact/icons/angleup');
-var inputtext = require('primereact/inputtext');
-var ripple = require('primereact/ripple');
-var tooltip = require('primereact/tooltip');
-var utils = require('primereact/utils');
+var PrimeReact = require('ytg-reusable-components/api');
+var componentbase = require('ytg-reusable-components/componentbase');
+var hooks = require('ytg-reusable-components/hooks');
+var angledown = require('ytg-reusable-components/icons/angledown');
+var angleup = require('ytg-reusable-components/icons/angleup');
+var inputtext = require('ytg-reusable-components/inputtext');
+var ripple = require('ytg-reusable-components/ripple');
+var tooltip = require('ytg-reusable-components/tooltip');
+var utils = require('ytg-reusable-components/utils');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 

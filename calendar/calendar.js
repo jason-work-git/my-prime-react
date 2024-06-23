@@ -2957,7 +2957,7 @@ this.primereact.calendar = (function (exports, React, PrimeReact, button, compon
       }
     });
     React__namespace.useEffect(function () {
-      // see https://github.com/primefaces/primereact/issues/4030
+      // see https://github.com/primefaces/ytg-reusable-components/issues/4030
       onChangeRef.current = props.onChange;
     }, [props.onChange]);
     React__namespace.useEffect(function () {

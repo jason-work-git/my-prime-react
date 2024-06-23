@@ -1,6 +1,6 @@
 'use client';
 import * as React from 'react';
-import { IconBase } from 'primereact/iconbase';
+import { IconBase } from 'ytg-reusable-components/iconbase';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

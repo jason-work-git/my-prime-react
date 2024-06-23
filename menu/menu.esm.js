@@ -1,13 +1,13 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { CSSTransition } from 'primereact/csstransition';
-import { useMergeProps, useDisplayOrder, useGlobalOnEscapeKey, ESC_KEY_HANDLING_PRIORITIES, useOverlayListener, useMountEffect, useUnmountEffect } from 'primereact/hooks';
-import { OverlayService } from 'primereact/overlayservice';
-import { Portal } from 'primereact/portal';
-import { Ripple } from 'primereact/ripple';
-import { classNames, UniqueComponentId, ZIndexUtils, DomHandler, IconUtils, ObjectUtils } from 'primereact/utils';
+import PrimeReact, { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { CSSTransition } from 'ytg-reusable-components/csstransition';
+import { useMergeProps, useDisplayOrder, useGlobalOnEscapeKey, ESC_KEY_HANDLING_PRIORITIES, useOverlayListener, useMountEffect, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { OverlayService } from 'ytg-reusable-components/overlayservice';
+import { Portal } from 'ytg-reusable-components/portal';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { classNames, UniqueComponentId, ZIndexUtils, DomHandler, IconUtils, ObjectUtils } from 'ytg-reusable-components/utils';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

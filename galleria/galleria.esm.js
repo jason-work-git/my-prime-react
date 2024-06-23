@@ -1,17 +1,17 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { localeOption, ariaLabel, PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { CSSTransition } from 'primereact/csstransition';
-import { useMergeProps, useMountEffect, usePrevious, useResizeListener, useUpdateEffect, useGlobalOnEscapeKey, ESC_KEY_HANDLING_PRIORITIES, useInterval, useUnmountEffect } from 'primereact/hooks';
-import { TimesIcon } from 'primereact/icons/times';
-import { Portal } from 'primereact/portal';
-import { Ripple } from 'primereact/ripple';
-import { classNames, IconUtils, DomHandler, UniqueComponentId, ObjectUtils, ZIndexUtils } from 'primereact/utils';
-import { ChevronLeftIcon } from 'primereact/icons/chevronleft';
-import { ChevronRightIcon } from 'primereact/icons/chevronright';
-import { ChevronDownIcon } from 'primereact/icons/chevrondown';
-import { ChevronUpIcon } from 'primereact/icons/chevronup';
+import PrimeReact, { localeOption, ariaLabel, PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { CSSTransition } from 'ytg-reusable-components/csstransition';
+import { useMergeProps, useMountEffect, usePrevious, useResizeListener, useUpdateEffect, useGlobalOnEscapeKey, ESC_KEY_HANDLING_PRIORITIES, useInterval, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { TimesIcon } from 'ytg-reusable-components/icons/times';
+import { Portal } from 'ytg-reusable-components/portal';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { classNames, IconUtils, DomHandler, UniqueComponentId, ObjectUtils, ZIndexUtils } from 'ytg-reusable-components/utils';
+import { ChevronLeftIcon } from 'ytg-reusable-components/icons/chevronleft';
+import { ChevronRightIcon } from 'ytg-reusable-components/icons/chevronright';
+import { ChevronDownIcon } from 'ytg-reusable-components/icons/chevrondown';
+import { ChevronUpIcon } from 'ytg-reusable-components/icons/chevronup';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

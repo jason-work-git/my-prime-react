@@ -4,13 +4,13 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var React = require('react');
-var PrimeReact = require('primereact/api');
-var componentbase = require('primereact/componentbase');
-var csstransition = require('primereact/csstransition');
-var hooks = require('primereact/hooks');
-var chevronup = require('primereact/icons/chevronup');
-var ripple = require('primereact/ripple');
-var utils = require('primereact/utils');
+var PrimeReact = require('ytg-reusable-components/api');
+var componentbase = require('ytg-reusable-components/componentbase');
+var csstransition = require('ytg-reusable-components/csstransition');
+var hooks = require('ytg-reusable-components/hooks');
+var chevronup = require('ytg-reusable-components/icons/chevronup');
+var ripple = require('ytg-reusable-components/ripple');
+var utils = require('ytg-reusable-components/utils');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 

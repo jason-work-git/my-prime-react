@@ -1,14 +1,14 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { PrimeReactContext, localeOption, ariaLabel } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, usePrevious, useResizeListener, useMountEffect, useUpdateEffect } from 'primereact/hooks';
-import { ChevronDownIcon } from 'primereact/icons/chevrondown';
-import { ChevronLeftIcon } from 'primereact/icons/chevronleft';
-import { ChevronRightIcon } from 'primereact/icons/chevronright';
-import { ChevronUpIcon } from 'primereact/icons/chevronup';
-import { Ripple } from 'primereact/ripple';
-import { classNames, UniqueComponentId, DomHandler, ObjectUtils, IconUtils } from 'primereact/utils';
+import PrimeReact, { PrimeReactContext, localeOption, ariaLabel } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, usePrevious, useResizeListener, useMountEffect, useUpdateEffect } from 'ytg-reusable-components/hooks';
+import { ChevronDownIcon } from 'ytg-reusable-components/icons/chevrondown';
+import { ChevronLeftIcon } from 'ytg-reusable-components/icons/chevronleft';
+import { ChevronRightIcon } from 'ytg-reusable-components/icons/chevronright';
+import { ChevronUpIcon } from 'ytg-reusable-components/icons/chevronup';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { classNames, UniqueComponentId, DomHandler, ObjectUtils, IconUtils } from 'ytg-reusable-components/utils';
 
 function _typeof(o) {
   "@babel/helpers - typeof";

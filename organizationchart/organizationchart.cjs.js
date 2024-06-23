@@ -4,12 +4,12 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var React = require('react');
-var api = require('primereact/api');
-var componentbase = require('primereact/componentbase');
-var hooks = require('primereact/hooks');
-var utils = require('primereact/utils');
-var chevrondown = require('primereact/icons/chevrondown');
-var chevronup = require('primereact/icons/chevronup');
+var api = require('ytg-reusable-components/api');
+var componentbase = require('ytg-reusable-components/componentbase');
+var hooks = require('ytg-reusable-components/hooks');
+var utils = require('ytg-reusable-components/utils');
+var chevrondown = require('ytg-reusable-components/icons/chevrondown');
+var chevronup = require('ytg-reusable-components/icons/chevronup');
 
 function _interopNamespace(e) {
   if (e && e.__esModule) return e;

@@ -1,13 +1,13 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useOverlayListener, useEventListener, useMountEffect, useUpdateEffect, useUnmountEffect } from 'primereact/hooks';
-import { OverlayService } from 'primereact/overlayservice';
-import { Tooltip } from 'primereact/tooltip';
-import { classNames, DomHandler, ObjectUtils, ZIndexUtils } from 'primereact/utils';
-import { CSSTransition } from 'primereact/csstransition';
-import { Portal } from 'primereact/portal';
+import PrimeReact, { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useOverlayListener, useEventListener, useMountEffect, useUpdateEffect, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { OverlayService } from 'ytg-reusable-components/overlayservice';
+import { Tooltip } from 'ytg-reusable-components/tooltip';
+import { classNames, DomHandler, ObjectUtils, ZIndexUtils } from 'ytg-reusable-components/utils';
+import { CSSTransition } from 'ytg-reusable-components/csstransition';
+import { Portal } from 'ytg-reusable-components/portal';
 
 function _typeof(o) {
   "@babel/helpers - typeof";

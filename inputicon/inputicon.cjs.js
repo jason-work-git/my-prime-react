@@ -4,10 +4,10 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var React = require('react');
-var hooks = require('primereact/hooks');
-var api = require('primereact/api');
-var componentbase = require('primereact/componentbase');
-var utils = require('primereact/utils');
+var hooks = require('ytg-reusable-components/hooks');
+var api = require('ytg-reusable-components/api');
+var componentbase = require('ytg-reusable-components/componentbase');
+var utils = require('ytg-reusable-components/utils');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 

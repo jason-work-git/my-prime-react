@@ -1,9 +1,9 @@
 'use client';
 import React from 'react';
-import { PrimeReactContext } from 'primereact/api';
-import { useStyle, useMountEffect } from 'primereact/hooks';
-import { ObjectUtils, DomHandler } from 'primereact/utils';
-import { ComponentBase } from 'primereact/componentbase';
+import { PrimeReactContext } from 'ytg-reusable-components/api';
+import { useStyle, useMountEffect } from 'ytg-reusable-components/hooks';
+import { ObjectUtils, DomHandler } from 'ytg-reusable-components/utils';
+import { ComponentBase } from 'ytg-reusable-components/componentbase';
 
 function _typeof(o) {
   "@babel/helpers - typeof";

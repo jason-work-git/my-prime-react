@@ -1,20 +1,20 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { PrimeReactContext, localeOption } from 'primereact/api';
-import { Button } from 'primereact/button';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useOverlayListener, useMountEffect, useUpdateEffect, useUnmountEffect } from 'primereact/hooks';
-import { ChevronDownIcon } from 'primereact/icons/chevrondown';
-import { SpinnerIcon } from 'primereact/icons/spinner';
-import { TimesCircleIcon } from 'primereact/icons/timescircle';
-import { InputText } from 'primereact/inputtext';
-import { OverlayService } from 'primereact/overlayservice';
-import { Tooltip } from 'primereact/tooltip';
-import { classNames, ObjectUtils, UniqueComponentId, DomHandler, ZIndexUtils, IconUtils } from 'primereact/utils';
-import { CSSTransition } from 'primereact/csstransition';
-import { Portal } from 'primereact/portal';
-import { Ripple } from 'primereact/ripple';
-import { VirtualScroller } from 'primereact/virtualscroller';
+import PrimeReact, { PrimeReactContext, localeOption } from 'ytg-reusable-components/api';
+import { Button } from 'ytg-reusable-components/button';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useOverlayListener, useMountEffect, useUpdateEffect, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { ChevronDownIcon } from 'ytg-reusable-components/icons/chevrondown';
+import { SpinnerIcon } from 'ytg-reusable-components/icons/spinner';
+import { TimesCircleIcon } from 'ytg-reusable-components/icons/timescircle';
+import { InputText } from 'ytg-reusable-components/inputtext';
+import { OverlayService } from 'ytg-reusable-components/overlayservice';
+import { Tooltip } from 'ytg-reusable-components/tooltip';
+import { classNames, ObjectUtils, UniqueComponentId, DomHandler, ZIndexUtils, IconUtils } from 'ytg-reusable-components/utils';
+import { CSSTransition } from 'ytg-reusable-components/csstransition';
+import { Portal } from 'ytg-reusable-components/portal';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { VirtualScroller } from 'ytg-reusable-components/virtualscroller';
 
 function _typeof(o) {
   "@babel/helpers - typeof";

@@ -4,15 +4,15 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var React = require('react');
-var PrimeReact = require('primereact/api');
-var componentbase = require('primereact/componentbase');
-var csstransition = require('primereact/csstransition');
-var hooks = require('primereact/hooks');
-var chevronleft = require('primereact/icons/chevronleft');
-var overlayservice = require('primereact/overlayservice');
-var portal = require('primereact/portal');
-var utils = require('primereact/utils');
-var angleright = require('primereact/icons/angleright');
+var PrimeReact = require('ytg-reusable-components/api');
+var componentbase = require('ytg-reusable-components/componentbase');
+var csstransition = require('ytg-reusable-components/csstransition');
+var hooks = require('ytg-reusable-components/hooks');
+var chevronleft = require('ytg-reusable-components/icons/chevronleft');
+var overlayservice = require('ytg-reusable-components/overlayservice');
+var portal = require('ytg-reusable-components/portal');
+var utils = require('ytg-reusable-components/utils');
+var angleright = require('ytg-reusable-components/icons/angleright');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 

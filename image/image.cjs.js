@@ -4,19 +4,19 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var React = require('react');
-var PrimeReact = require('primereact/api');
-var componentbase = require('primereact/componentbase');
-var csstransition = require('primereact/csstransition');
-var hooks = require('primereact/hooks');
-var iconbase = require('primereact/iconbase');
-var eye = require('primereact/icons/eye');
-var refresh = require('primereact/icons/refresh');
-var searchminus = require('primereact/icons/searchminus');
-var searchplus = require('primereact/icons/searchplus');
-var times = require('primereact/icons/times');
-var undo = require('primereact/icons/undo');
-var portal = require('primereact/portal');
-var utils = require('primereact/utils');
+var PrimeReact = require('ytg-reusable-components/api');
+var componentbase = require('ytg-reusable-components/componentbase');
+var csstransition = require('ytg-reusable-components/csstransition');
+var hooks = require('ytg-reusable-components/hooks');
+var iconbase = require('ytg-reusable-components/iconbase');
+var eye = require('ytg-reusable-components/icons/eye');
+var refresh = require('ytg-reusable-components/icons/refresh');
+var searchminus = require('ytg-reusable-components/icons/searchminus');
+var searchplus = require('ytg-reusable-components/icons/searchplus');
+var times = require('ytg-reusable-components/icons/times');
+var undo = require('ytg-reusable-components/icons/undo');
+var portal = require('ytg-reusable-components/portal');
+var utils = require('ytg-reusable-components/utils');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 

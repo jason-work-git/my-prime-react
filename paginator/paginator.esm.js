@@ -1,16 +1,16 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext, ariaLabel as ariaLabel$1, localeOption } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useUpdateEffect } from 'primereact/hooks';
-import { classNames, ObjectUtils, IconUtils } from 'primereact/utils';
-import { AngleDoubleLeftIcon } from 'primereact/icons/angledoubleleft';
-import { Ripple } from 'primereact/ripple';
-import { InputNumber } from 'primereact/inputnumber';
-import { AngleDoubleRightIcon } from 'primereact/icons/angledoubleright';
-import { AngleRightIcon } from 'primereact/icons/angleright';
-import { AngleLeftIcon } from 'primereact/icons/angleleft';
-import { Dropdown } from 'primereact/dropdown';
+import { PrimeReactContext, ariaLabel as ariaLabel$1, localeOption } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useUpdateEffect } from 'ytg-reusable-components/hooks';
+import { classNames, ObjectUtils, IconUtils } from 'ytg-reusable-components/utils';
+import { AngleDoubleLeftIcon } from 'ytg-reusable-components/icons/angledoubleleft';
+import { Ripple } from 'ytg-reusable-components/ripple';
+import { InputNumber } from 'ytg-reusable-components/inputnumber';
+import { AngleDoubleRightIcon } from 'ytg-reusable-components/icons/angledoubleright';
+import { AngleRightIcon } from 'ytg-reusable-components/icons/angleright';
+import { AngleLeftIcon } from 'ytg-reusable-components/icons/angleleft';
+import { Dropdown } from 'ytg-reusable-components/dropdown';
 
 function _arrayWithHoles(arr) {
   if (Array.isArray(arr)) return arr;

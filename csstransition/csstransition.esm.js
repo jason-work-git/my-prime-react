@@ -1,9 +1,9 @@
 'use client';
 import * as React from 'react';
 import { CSSTransition as CSSTransition$1 } from 'react-transition-group';
-import { useUpdateEffect } from 'primereact/hooks';
-import { ObjectUtils } from 'primereact/utils';
-import PrimeReact, { PrimeReactContext } from 'primereact/api';
+import { useUpdateEffect } from 'ytg-reusable-components/hooks';
+import { ObjectUtils } from 'ytg-reusable-components/utils';
+import PrimeReact, { PrimeReactContext } from 'ytg-reusable-components/api';
 
 function _typeof(o) {
   "@babel/helpers - typeof";

@@ -151,7 +151,7 @@ export interface StepperPanelProps {
  *
  * [Live Demo](https://www.primereact.org/stepper/)
  * --- ---
- * ![PrimeReact](https://primefaces.org/cdn/primereact/images/logo-100.png)
+ * ![PrimeReact](https://primefaces.org/cdn/ytg-reusable-components/images/logo-100.png)
  *
  * @group Component
  */

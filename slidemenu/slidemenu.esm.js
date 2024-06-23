@@ -1,14 +1,14 @@
 'use client';
 import * as React from 'react';
-import PrimeReact, { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { CSSTransition } from 'primereact/csstransition';
-import { useMergeProps, useDisplayOrder, useGlobalOnEscapeKey, ESC_KEY_HANDLING_PRIORITIES, useOverlayListener, useMountEffect, useUpdateEffect, useUnmountEffect } from 'primereact/hooks';
-import { ChevronLeftIcon } from 'primereact/icons/chevronleft';
-import { OverlayService } from 'primereact/overlayservice';
-import { Portal } from 'primereact/portal';
-import { classNames, IconUtils, ObjectUtils, UniqueComponentId, ZIndexUtils, DomHandler } from 'primereact/utils';
-import { AngleRightIcon } from 'primereact/icons/angleright';
+import PrimeReact, { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { CSSTransition } from 'ytg-reusable-components/csstransition';
+import { useMergeProps, useDisplayOrder, useGlobalOnEscapeKey, ESC_KEY_HANDLING_PRIORITIES, useOverlayListener, useMountEffect, useUpdateEffect, useUnmountEffect } from 'ytg-reusable-components/hooks';
+import { ChevronLeftIcon } from 'ytg-reusable-components/icons/chevronleft';
+import { OverlayService } from 'ytg-reusable-components/overlayservice';
+import { Portal } from 'ytg-reusable-components/portal';
+import { classNames, IconUtils, ObjectUtils, UniqueComponentId, ZIndexUtils, DomHandler } from 'ytg-reusable-components/utils';
+import { AngleRightIcon } from 'ytg-reusable-components/icons/angleright';
 
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {

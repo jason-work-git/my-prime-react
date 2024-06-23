@@ -4,17 +4,17 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var React = require('react');
-var api = require('primereact/api');
-var componentbase = require('primereact/componentbase');
-var hooks = require('primereact/hooks');
-var utils = require('primereact/utils');
-var angledoubleleft = require('primereact/icons/angledoubleleft');
-var ripple = require('primereact/ripple');
-var inputnumber = require('primereact/inputnumber');
-var angledoubleright = require('primereact/icons/angledoubleright');
-var angleright = require('primereact/icons/angleright');
-var angleleft = require('primereact/icons/angleleft');
-var dropdown = require('primereact/dropdown');
+var api = require('ytg-reusable-components/api');
+var componentbase = require('ytg-reusable-components/componentbase');
+var hooks = require('ytg-reusable-components/hooks');
+var utils = require('ytg-reusable-components/utils');
+var angledoubleleft = require('ytg-reusable-components/icons/angledoubleleft');
+var ripple = require('ytg-reusable-components/ripple');
+var inputnumber = require('ytg-reusable-components/inputnumber');
+var angledoubleright = require('ytg-reusable-components/icons/angledoubleright');
+var angleright = require('ytg-reusable-components/icons/angleright');
+var angleleft = require('ytg-reusable-components/icons/angleleft');
+var dropdown = require('ytg-reusable-components/dropdown');
 
 function _interopNamespace(e) {
   if (e && e.__esModule) return e;

@@ -1,10 +1,10 @@
 'use client';
 import * as React from 'react';
-import { PrimeReactContext } from 'primereact/api';
-import { ComponentBase, useHandleStyle } from 'primereact/componentbase';
-import { useMergeProps, useMountEffect } from 'primereact/hooks';
-import { ChevronRightIcon } from 'primereact/icons/chevronright';
-import { classNames, UniqueComponentId, IconUtils, ObjectUtils } from 'primereact/utils';
+import { PrimeReactContext } from 'ytg-reusable-components/api';
+import { ComponentBase, useHandleStyle } from 'ytg-reusable-components/componentbase';
+import { useMergeProps, useMountEffect } from 'ytg-reusable-components/hooks';
+import { ChevronRightIcon } from 'ytg-reusable-components/icons/chevronright';
+import { classNames, UniqueComponentId, IconUtils, ObjectUtils } from 'ytg-reusable-components/utils';
 
 function _typeof(o) {
   "@babel/helpers - typeof";

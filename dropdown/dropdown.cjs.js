@@ -4,22 +4,22 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var React = require('react');
-var PrimeReact = require('primereact/api');
-var componentbase = require('primereact/componentbase');
-var hooks = require('primereact/hooks');
-var chevrondown = require('primereact/icons/chevrondown');
-var spinner = require('primereact/icons/spinner');
-var times = require('primereact/icons/times');
-var overlayservice = require('primereact/overlayservice');
-var tooltip = require('primereact/tooltip');
-var utils = require('primereact/utils');
-var csstransition = require('primereact/csstransition');
-var search = require('primereact/icons/search');
-var portal = require('primereact/portal');
-var virtualscroller = require('primereact/virtualscroller');
-var ripple = require('primereact/ripple');
-var check = require('primereact/icons/check');
-var iconbase = require('primereact/iconbase');
+var PrimeReact = require('ytg-reusable-components/api');
+var componentbase = require('ytg-reusable-components/componentbase');
+var hooks = require('ytg-reusable-components/hooks');
+var chevrondown = require('ytg-reusable-components/icons/chevrondown');
+var spinner = require('ytg-reusable-components/icons/spinner');
+var times = require('ytg-reusable-components/icons/times');
+var overlayservice = require('ytg-reusable-components/overlayservice');
+var tooltip = require('ytg-reusable-components/tooltip');
+var utils = require('ytg-reusable-components/utils');
+var csstransition = require('ytg-reusable-components/csstransition');
+var search = require('ytg-reusable-components/icons/search');
+var portal = require('ytg-reusable-components/portal');
+var virtualscroller = require('ytg-reusable-components/virtualscroller');
+var ripple = require('ytg-reusable-components/ripple');
+var check = require('ytg-reusable-components/icons/check');
+var iconbase = require('ytg-reusable-components/iconbase');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
