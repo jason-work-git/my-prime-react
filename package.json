@@ -1,7 +1,7 @@
 {
-    "name": "primereact",
+    "name": "ytg-reusable-component",
     "private": false,
-    "version": "10.6.6",
+    "version": "1.0.0",
     "scripts": {
         "dev": "next dev",
         "start": "next start",
@@ -84,5 +84,20 @@
     },
     "engines": {
         "node": ">=18"
-    }
+    },
+    "description": "my-version of prime react",
+    "main": "gulpfile.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jason-work-git/my-prime-react.git"
+    },
+    "author": "abolfazln263@gmail.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jason-work-git/my-prime-react/issues"
+    },
+    "homepage": "https://github.com/jason-work-git/my-prime-react#readme",
+    "keywords": [
+        "ytg-reusable-component"
+    ]
 }
